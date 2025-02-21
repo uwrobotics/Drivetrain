@@ -1,6 +1,0 @@
-Invoking command in '/home/bzvm/Drivetrain/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/bzvm/Drivetrain/Motor-Controller -DCMAKE_INSTALL_PREFIX=/home/bzvm/Drivetrain/install/motor_controller
-Invoked command in '/home/bzvm/Drivetrain/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/bzvm/Drivetrain/Motor-Controller -DCMAKE_INSTALL_PREFIX=/home/bzvm/Drivetrain/install/motor_controller
-Invoking command in '/home/bzvm/Drivetrain/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/bzvm/Drivetrain/build/motor_controller -- -j4 -l4
-Invoked command in '/home/bzvm/Drivetrain/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/bzvm/Drivetrain/build/motor_controller -- -j4 -l4
-Invoking command in '/home/bzvm/Drivetrain/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/bzvm/Drivetrain/build/motor_controller
-Invoked command in '/home/bzvm/Drivetrain/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/bzvm/Drivetrain/build/motor_controller

@@ -1,3 +1,9 @@
 [submodule "Motor-Controller"]
 	path = Motor-Controller
 	url = https://github.com/bluebarryz/Motor-Controller.git
+[submodule "py_odrive"]
+	path = py_odrive
+	url = https://github.com/uwrobotics/py_odrive.git
+[submodule "lcm_receiver"]
+	path = lcm_receiver
+	url = https://github.com/uwrobotics/lcm_receiver.git

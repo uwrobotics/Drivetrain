@@ -1,6 +1,0 @@
-/home/bzvm/Drivetrain/build/motor_controller/rosidl_adapter/motor_controller:msg/ArcadeSpeed.idl
-/home/bzvm/Drivetrain/build/motor_controller/rosidl_adapter/motor_controller:msg/MotorSpeeds.idl
-/home/bzvm/Drivetrain/build/motor_controller/rosidl_adapter/motor_controller:msg/Transition.idl
-/home/bzvm/Drivetrain/build/motor_controller/rosidl_adapter/motor_controller:srv/ChangeState.idl
-/home/bzvm/Drivetrain/build/motor_controller/rosidl_adapter/motor_controller:srv/GetState.idl
-/home/bzvm/Drivetrain/build/motor_controller/rosidl_adapter/motor_controller:msg/State.idl
