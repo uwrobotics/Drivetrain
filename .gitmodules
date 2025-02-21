@@ -1,0 +1,3 @@
+[submodule "Motor-Controller"]
+	path = Motor-Controller
+	url = https://github.com/bluebarryz/Motor-Controller.git
