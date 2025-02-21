@@ -1,0 +1,456 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.002815] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.010479] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[0.011419] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/bzvm/Drivetrain/Motor-Controller', '-DCMAKE_INSTALL_PREFIX=/home/bzvm/Drivetrain/install/motor_controller'], 'cwd': '/home/bzvm/Drivetrain/build/motor_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bzvm'), ('SSH_AGENT_PID', '1863'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/bzvm'), ('OLDPWD', '/home/bzvm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'bzvm'), ('JOURNAL_STREAM', '8:38413'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bzvm'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1917,unix/Ubuntu:/tmp/.ICE-unix/1917'), ('INVOCATION_ID', 'c3ce56d13d0c4f12a20446686ac23c05'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95983564_22cd_4d4c_8e78_29cd21063c0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1009'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bzvm/Drivetrain/build/motor_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.094322] (motor_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099967] (-) TimerEvent: {}
+[0.147588] (motor_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.152636] (motor_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200473] (-) TimerEvent: {}
+[0.211271] (motor_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.214271] (motor_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.275322] (motor_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.286290] (motor_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287221] (motor_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.289701] (motor_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.300872] (-) TimerEvent: {}
+[0.356333] (motor_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.357095] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401569] (-) TimerEvent: {}
+[0.422691] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.432198] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.432964] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.437938] (motor_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.454819] (motor_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.454960] (motor_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.502166] (-) TimerEvent: {}
+[0.515153] (motor_controller) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.550621] (motor_controller) StdoutLine: {'line': b'-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c\n'}
+[0.556428] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.570533] (motor_controller) StdoutLine: {'line': b'-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp\n'}
+[0.607145] (-) TimerEvent: {}
+[0.615678] (motor_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.618311] (motor_controller) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.632061] (motor_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.633976] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.696714] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.697127] (motor_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.707815] (-) TimerEvent: {}
+[0.757597] (motor_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.757771] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.807957] (-) TimerEvent: {}
+[0.811865] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.812010] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.873342] (motor_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.874197] (motor_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.908888] (-) TimerEvent: {}
+[0.992600] (motor_controller) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)\n'}
+[1.009049] (-) TimerEvent: {}
+[1.034527] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.042996] (motor_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.068292] (motor_controller) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 9.2.2 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)\n'}
+[1.091837] (motor_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[1.110625] (-) TimerEvent: {}
+[1.145927] (motor_controller) StdoutLine: {'line': b'-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.7.3") \n'}
+[1.163694] (motor_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.214100] (-) TimerEvent: {}
+[1.316661] (-) TimerEvent: {}
+[1.350391] (motor_controller) StdoutLine: {'line': b'-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c\n'}
+[1.417302] (-) TimerEvent: {}
+[1.428690] (motor_controller) StdoutLine: {'line': b'-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp\n'}
+[1.446949] (motor_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.448172] (motor_controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[1.478836] (motor_controller) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.479142] (motor_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.479204] (motor_controller) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.479243] (motor_controller) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.495820] (motor_controller) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.517900] (-) TimerEvent: {}
+[1.559716] (motor_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.602493] (motor_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.604900] (motor_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/bzvm/Drivetrain/build/motor_controller\n'}
+[1.611363] (motor_controller) CommandEnded: {'returncode': 0}
+[1.614132] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'build'}
+[1.614341] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bzvm/Drivetrain/build/motor_controller', '--', '-j4', '-l4'], 'cwd': '/home/bzvm/Drivetrain/build/motor_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bzvm'), ('SSH_AGENT_PID', '1863'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/bzvm'), ('OLDPWD', '/home/bzvm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'bzvm'), ('JOURNAL_STREAM', '8:38413'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bzvm'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1917,unix/Ubuntu:/tmp/.ICE-unix/1917'), ('INVOCATION_ID', 'c3ce56d13d0c4f12a20446686ac23c05'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95983564_22cd_4d4c_8e78_29cd21063c0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1009'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bzvm/Drivetrain/build/motor_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.619756] (-) TimerEvent: {}
+[1.652231] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__cpp\x1b[0m\n'}
+[1.653283] (motor_controller) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.663550] (motor_controller) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.726372] (-) TimerEvent: {}
+[1.835369] (-) TimerEvent: {}
+[1.946549] (-) TimerEvent: {}
+[2.093541] (-) TimerEvent: {}
+[2.195092] (-) TimerEvent: {}
+[2.210684] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_generator_c\x1b[0m\n'}
+[2.225060] (motor_controller) StdoutLine: {'line': b'[  3%] Built target motor_controller__cpp\n'}
+[2.230456] (motor_controller) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/motor_speeds__functions.c.o\x1b[0m\n'}
+[2.230741] (motor_controller) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/arcade_speed__functions.c.o\x1b[0m\n'}
+[2.234143] (motor_controller) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/transition__functions.c.o\x1b[0m\n'}
+[2.237167] (motor_controller) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.264311] (motor_controller) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/srv/detail/change_state__functions.c.o\x1b[0m\n'}
+[2.265042] (motor_controller) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/srv/detail/get_state__functions.c.o\x1b[0m\n'}
+[2.266459] (motor_controller) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/state__functions.c.o\x1b[0m\n'}
+[2.299286] (-) TimerEvent: {}
+[2.308220] (motor_controller) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libmotor_controller__rosidl_generator_c.so\x1b[0m\n'}
+[2.343171] (motor_controller) StdoutLine: {'line': b'[ 16%] Built target motor_controller__rosidl_generator_c\n'}
+[2.353789] (motor_controller) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.401153] (-) TimerEvent: {}
+[2.502690] (-) TimerEvent: {}
+[2.603931] (-) TimerEvent: {}
+[2.614531] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.637325] (motor_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/arcade_speed__type_support.cpp.o\x1b[0m\n'}
+[2.641534] (motor_controller) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[2.644400] (motor_controller) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/transition__type_support.cpp.o\x1b[0m\n'}
+[2.709114] (-) TimerEvent: {}
+[2.796704] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.813936] (-) TimerEvent: {}
+[2.830964] (motor_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/arcade_speed__type_support.c.o\x1b[0m\n'}
+[2.856119] (motor_controller) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/motor_speeds__type_support.c.o\x1b[0m\n'}
+[2.865217] (motor_controller) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/transition__type_support.c.o\x1b[0m\n'}
+[2.878409] (motor_controller) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/srv/detail/change_state__type_support.cpp.o\x1b[0m\n'}
+[2.885434] (motor_controller) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/srv/detail/change_state__type_support.c.o\x1b[0m\n'}
+[2.887651] (motor_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/srv/detail/get_state__type_support.cpp.o\x1b[0m\n'}
+[2.899151] (motor_controller) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/srv/detail/get_state__type_support.c.o\x1b[0m\n'}
+[2.914282] (-) TimerEvent: {}
+[2.918662] (motor_controller) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/state__type_support.c.o\x1b[0m\n'}
+[2.932540] (motor_controller) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/state__type_support.cpp.o\x1b[0m\n'}
+[2.945487] (motor_controller) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libmotor_controller__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.981874] (motor_controller) StdoutLine: {'line': b'[ 40%] Built target motor_controller__rosidl_typesupport_introspection_c\n'}
+[2.992547] (motor_controller) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.084957] (-) TimerEvent: {}
+[3.132766] (motor_controller) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.185227] (-) TimerEvent: {}
+[3.189919] (motor_controller) StdoutLine: {'line': b'[ 44%] Built target motor_controller__rosidl_typesupport_introspection_cpp\n'}
+[3.201795] (motor_controller) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.285944] (-) TimerEvent: {}
+[3.306580] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_typesupport_c\x1b[0m\n'}
+[3.319191] (motor_controller) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/arcade_speed__type_support.cpp.o\x1b[0m\n'}
+[3.326667] (motor_controller) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[3.327264] (motor_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/transition__type_support.cpp.o\x1b[0m\n'}
+[3.345128] (motor_controller) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/srv/change_state__type_support.cpp.o\x1b[0m\n'}
+[3.353556] (motor_controller) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/srv/get_state__type_support.cpp.o\x1b[0m\n'}
+[3.357399] (motor_controller) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/state__type_support.cpp.o\x1b[0m\n'}
+[3.382044] (motor_controller) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.388482] (-) TimerEvent: {}
+[3.416802] (motor_controller) StdoutLine: {'line': b'[ 57%] Built target motor_controller__rosidl_typesupport_c\n'}
+[3.490102] (-) TimerEvent: {}
+[3.525722] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.538968] (motor_controller) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/arcade_speed__type_support.cpp.o\x1b[0m\n'}
+[3.539248] (motor_controller) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/motor_speeds__type_support.cpp.o\x1b[0m\n'}
+[3.540259] (motor_controller) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/transition__type_support.cpp.o\x1b[0m\n'}
+[3.545409] (motor_controller) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/srv/change_state__type_support.cpp.o\x1b[0m\n'}
+[3.706944] (-) TimerEvent: {}
+[3.728644] (motor_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/srv/get_state__type_support.cpp.o\x1b[0m\n'}
+[3.730437] (motor_controller) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/state__type_support.cpp.o\x1b[0m\n'}
+[3.807891] (-) TimerEvent: {}
+[3.908903] (-) TimerEvent: {}
+[3.917679] (motor_controller) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.953840] (motor_controller) StdoutLine: {'line': b'[ 69%] Built target motor_controller__rosidl_typesupport_cpp\n'}
+[3.963062] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller\x1b[0m\n'}
+[3.972298] (motor_controller) StdoutLine: {'line': b'[ 69%] Built target motor_controller\n'}
+[3.981270] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target state_manager\x1b[0m\n'}
+[3.981807] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_speed_controller\x1b[0m\n'}
+[3.981909] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__py\x1b[0m\n'}
+[3.983094] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target arcade_driver\x1b[0m\n'}
+[3.990859] (motor_controller) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.009451] (-) TimerEvent: {}
+[4.025162] (motor_controller) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/motor_speed_controller.dir/src/MotorSpeedController.cpp.o\x1b[0m\n'}
+[4.034326] (motor_controller) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/state_manager.dir/src/StateManager.cpp.o\x1b[0m\n'}
+[4.036406] (motor_controller) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/arcade_driver.dir/src/ArcadeDriver.cpp.o\x1b[0m\n'}
+[4.348539] (-) TimerEvent: {}
+[4.585252] (-) TimerEvent: {}
+[4.736961] (-) TimerEvent: {}
+[4.883744] (motor_controller) StdoutLine: {'line': b'[ 76%] Built target motor_controller__py\n'}
+[4.883919] (-) TimerEvent: {}
+[4.894000] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__python\x1b[0m\n'}
+[4.998979] (-) TimerEvent: {}
+[5.022041] (motor_controller) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/motor_controller__python.dir/rosidl_generator_py/motor_controller/msg/_arcade_speed_s.c.o\x1b[0m\n'}
+[5.093917] (motor_controller) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/motor_controller__python.dir/rosidl_generator_py/motor_controller/msg/_motor_speeds_s.c.o\x1b[0m\n'}
+[5.100086] (-) TimerEvent: {}
+[5.175907] (motor_controller) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/motor_controller__python.dir/rosidl_generator_py/motor_controller/msg/_transition_s.c.o\x1b[0m\n'}
+[5.242294] (motor_controller) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/motor_controller__python.dir/rosidl_generator_py/motor_controller/srv/_change_state_s.c.o\x1b[0m\n'}
+[5.242471] (-) TimerEvent: {}
+[5.311507] (motor_controller) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/motor_controller__python.dir/rosidl_generator_py/motor_controller/srv/_get_state_s.c.o\x1b[0m\n'}
+[5.344355] (-) TimerEvent: {}
+[5.388918] (motor_controller) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/motor_controller__python.dir/rosidl_generator_py/motor_controller/msg/_state_s.c.o\x1b[0m\n'}
+[5.448291] (-) TimerEvent: {}
+[5.456856] (motor_controller) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_controller/libmotor_controller__python.so\x1b[0m\n'}
+[5.800905] (-) TimerEvent: {}
+[5.843622] (motor_controller) StdoutLine: {'line': b'[ 88%] Built target motor_controller__python\n'}
+[5.853637] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.896293] (motor_controller) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.902374] (-) TimerEvent: {}
+[5.974183] (motor_controller) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.011799] (motor_controller) StdoutLine: {'line': b'[ 91%] Built target motor_controller__rosidl_typesupport_introspection_c__pyext\n'}
+[6.011979] (-) TimerEvent: {}
+[6.022716] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.060845] (motor_controller) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.122925] (-) TimerEvent: {}
+[6.140351] (motor_controller) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.176435] (motor_controller) StdoutLine: {'line': b'[ 94%] Built target motor_controller__rosidl_typesupport_c__pyext\n'}
+[6.288847] (-) TimerEvent: {}
+[7.350705] (-) TimerEvent: {}
+[7.477860] (-) TimerEvent: {}
+[7.856884] (-) TimerEvent: {}
+[8.346022] (-) TimerEvent: {}
+[8.502223] (-) TimerEvent: {}
+[8.603068] (-) TimerEvent: {}
+[8.706197] (-) TimerEvent: {}
+[8.811870] (-) TimerEvent: {}
+[8.912539] (-) TimerEvent: {}
+[9.013108] (-) TimerEvent: {}
+[9.114042] (-) TimerEvent: {}
+[9.214603] (-) TimerEvent: {}
+[9.315426] (-) TimerEvent: {}
+[9.415864] (-) TimerEvent: {}
+[9.518577] (-) TimerEvent: {}
+[9.619165] (-) TimerEvent: {}
+[9.720382] (-) TimerEvent: {}
+[9.904558] (-) TimerEvent: {}
+[9.914901] (motor_controller) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libarcade_driver.so\x1b[0m\n'}
+[10.137931] (-) TimerEvent: {}
+[10.193141] (motor_controller) StdoutLine: {'line': b'[ 96%] Built target arcade_driver\n'}
+[10.238143] (-) TimerEvent: {}
+[10.343843] (-) TimerEvent: {}
+[10.450298] (-) TimerEvent: {}
+[10.575821] (-) TimerEvent: {}
+[10.690083] (-) TimerEvent: {}
+[10.792584] (-) TimerEvent: {}
+[10.903548] (-) TimerEvent: {}
+[11.004132] (-) TimerEvent: {}
+[11.128441] (-) TimerEvent: {}
+[11.240971] (-) TimerEvent: {}
+[11.344520] (-) TimerEvent: {}
+[11.445578] (-) TimerEvent: {}
+[11.460413] (motor_controller) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_speed_controller.so\x1b[0m\n'}
+[11.547080] (-) TimerEvent: {}
+[11.651633] (-) TimerEvent: {}
+[11.745456] (motor_controller) StdoutLine: {'line': b'[ 98%] Built target motor_speed_controller\n'}
+[11.752522] (-) TimerEvent: {}
+[11.864028] (-) TimerEvent: {}
+[11.968302] (-) TimerEvent: {}
+[12.069939] (-) TimerEvent: {}
+[12.170484] (-) TimerEvent: {}
+[12.271266] (-) TimerEvent: {}
+[12.395058] (-) TimerEvent: {}
+[12.538916] (-) TimerEvent: {}
+[12.640187] (-) TimerEvent: {}
+[12.747108] (-) TimerEvent: {}
+[12.848373] (-) TimerEvent: {}
+[12.949002] (-) TimerEvent: {}
+[13.051214] (-) TimerEvent: {}
+[13.152898] (-) TimerEvent: {}
+[13.261272] (-) TimerEvent: {}
+[13.362751] (-) TimerEvent: {}
+[13.464444] (-) TimerEvent: {}
+[13.495048] (motor_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state_manager\x1b[0m\n'}
+[13.564905] (-) TimerEvent: {}
+[13.667209] (-) TimerEvent: {}
+[13.767836] (-) TimerEvent: {}
+[13.840983] (motor_controller) StdoutLine: {'line': b'[100%] Built target state_manager\n'}
+[13.852980] (motor_controller) CommandEnded: {'returncode': 0}
+[13.868599] (-) TimerEvent: {}
+[13.969121] (-) TimerEvent: {}
+[14.010743] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'install'}
+[14.021052] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bzvm/Drivetrain/build/motor_controller'], 'cwd': '/home/bzvm/Drivetrain/build/motor_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bzvm'), ('SSH_AGENT_PID', '1863'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/bzvm'), ('OLDPWD', '/home/bzvm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'bzvm'), ('JOURNAL_STREAM', '8:38413'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bzvm'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1917,unix/Ubuntu:/tmp/.ICE-unix/1917'), ('INVOCATION_ID', 'c3ce56d13d0c4f12a20446686ac23c05'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95983564_22cd_4d4c_8e78_29cd21063c0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1009'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bzvm/Drivetrain/build/motor_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[14.028152] (motor_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.028349] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/ament_index/resource_index/rosidl_interfaces/motor_controller\n'}
+[14.028551] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller\n'}
+[14.028602] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg\n'}
+[14.028640] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail\n'}
+[14.028760] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__functions.h\n'}
+[14.028807] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__functions.c\n'}
+[14.028845] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__functions.c\n'}
+[14.029098] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__type_support.h\n'}
+[14.029140] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__type_support.h\n'}
+[14.029225] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__functions.h\n'}
+[14.030095] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__struct.h\n'}
+[14.030205] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__struct.h\n'}
+[14.030292] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__functions.h\n'}
+[14.030331] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__struct.h\n'}
+[14.030417] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__type_support.h\n'}
+[14.030464] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__struct.h\n'}
+[14.030552] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__functions.c\n'}
+[14.030669] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__type_support.h\n'}
+[14.030760] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__functions.h\n'}
+[14.030910] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__functions.c\n'}
+[14.030957] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/state.h\n'}
+[14.031201] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/transition.h\n'}
+[14.031281] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.031329] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/motor_speeds.h\n'}
+[14.031430] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/arcade_speed.h\n'}
+[14.031485] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv\n'}
+[14.031800] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail\n'}
+[14.031850] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__struct.h\n'}
+[14.031888] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__functions.c\n'}
+[14.031986] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__functions.c\n'}
+[14.032028] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__functions.h\n'}
+[14.032108] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__struct.h\n'}
+[14.032246] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__functions.h\n'}
+[14.032362] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__type_support.h\n'}
+[14.032460] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__type_support.h\n'}
+[14.032593] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/change_state.h\n'}
+[14.032682] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/get_state.h\n'}
+[14.032800] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/library_path.sh\n'}
+[14.032891] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/library_path.dsv\n'}
+[14.033018] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so\n'}
+[14.033136] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so" to ""\n'}
+[14.033217] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller\n'}
+[14.033256] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg\n'}
+[14.033340] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.033382] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail\n'}
+[14.033457] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__rosidl_typesupport_introspection_c.h\n'}
+[14.033546] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__rosidl_typesupport_introspection_c.h\n'}
+[14.034082] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__type_support.c\n'}
+[14.034173] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__type_support.c\n'}
+[14.034293] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__type_support.c\n'}
+[14.034383] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__type_support.c\n'}
+[14.034446] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__rosidl_typesupport_introspection_c.h\n'}
+[14.034635] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__rosidl_typesupport_introspection_c.h\n'}
+[14.034684] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv\n'}
+[14.034761] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail\n'}
+[14.034807] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__type_support.c\n'}
+[14.034880] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__rosidl_typesupport_introspection_c.h\n'}
+[14.034972] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__type_support.c\n'}
+[14.035097] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__rosidl_typesupport_introspection_c.h\n'}
+[14.035187] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so\n'}
+[14.035301] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.035461] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so\n'}
+[14.035515] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so" to ""\n'}
+[14.035553] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller\n'}
+[14.036198] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg\n'}
+[14.036392] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail\n'}
+[14.036488] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__builder.hpp\n'}
+[14.036610] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__struct.hpp\n'}
+[14.036701] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__builder.hpp\n'}
+[14.036815] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__traits.hpp\n'}
+[14.036908] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__builder.hpp\n'}
+[14.037026] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__builder.hpp\n'}
+[14.037115] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__struct.hpp\n'}
+[14.037232] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__struct.hpp\n'}
+[14.037321] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__traits.hpp\n'}
+[14.037442] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__struct.hpp\n'}
+[14.037539] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__traits.hpp\n'}
+[14.037657] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__traits.hpp\n'}
+[14.037747] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/motor_speeds.hpp\n'}
+[14.037861] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/state.hpp\n'}
+[14.037952] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/arcade_speed.hpp\n'}
+[14.038069] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/transition.hpp\n'}
+[14.038159] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv\n'}
+[14.038343] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/change_state.hpp\n'}
+[14.038401] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail\n'}
+[14.038450] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__struct.hpp\n'}
+[14.038491] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__struct.hpp\n'}
+[14.038527] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__traits.hpp\n'}
+[14.038563] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__builder.hpp\n'}
+[14.038599] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__builder.hpp\n'}
+[14.038635] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__traits.hpp\n'}
+[14.038672] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/get_state.hpp\n'}
+[14.038708] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller\n'}
+[14.038744] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg\n'}
+[14.038781] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail\n'}
+[14.038817] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.038853] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__type_support.cpp\n'}
+[14.038894] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__type_support.cpp\n'}
+[14.038931] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/motor_speeds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.038967] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.039005] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__type_support.cpp\n'}
+[14.039041] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/state__type_support.cpp\n'}
+[14.039077] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/msg/detail/arcade_speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.039116] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv\n'}
+[14.039152] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail\n'}
+[14.039188] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__type_support.cpp\n'}
+[14.039223] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__type_support.cpp\n'}
+[14.039260] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.039315] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/include/motor_controller/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.039356] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so\n'}
+[14.039393] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.039430] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so\n'}
+[14.039468] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so" to ""\n'}
+[14.039504] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/pythonpath.sh\n'}
+[14.039540] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/pythonpath.dsv\n'}
+[14.039576] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/__init__.py\n'}
+[14.056862] (motor_controller) StdoutLine: {'line': b"Compiling '/home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/__init__.py'...\n"}
+[14.059321] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg\n'}
+[14.059494] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_state.py\n'}
+[14.059897] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_state_s.c\n'}
+[14.059938] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_transition_s.c\n'}
+[14.059991] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/__init__.py\n'}
+[14.060034] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_arcade_speed.py\n'}
+[14.060388] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_motor_speeds.py\n'}
+[14.060432] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_arcade_speed_s.c\n'}
+[14.060516] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_transition.py\n'}
+[14.060558] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/msg/_motor_speeds_s.c\n'}
+[14.060598] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/srv\n'}
+[14.060635] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/srv/__init__.py\n'}
+[14.060902] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/srv/_change_state.py\n'}
+[14.060968] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/srv/_change_state_s.c\n'}
+[14.061006] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/srv/_get_state_s.c\n'}
+[14.061043] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/srv/_get_state.py\n'}
+[14.061082] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.061451] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.061509] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.061889] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.061945] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__python.so\n'}
+[14.062217] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_controller__python.so" to ""\n'}
+[14.062273] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/ArcadeSpeed.idl\n'}
+[14.062409] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/MotorSpeeds.idl\n'}
+[14.062464] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/Transition.idl\n'}
+[14.062631] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/ChangeState.idl\n'}
+[14.062685] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/GetState.idl\n'}
+[14.062818] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/State.idl\n'}
+[14.062873] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/ArcadeSpeed.msg\n'}
+[14.063096] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/MotorSpeeds.msg\n'}
+[14.063152] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/Transition.msg\n'}
+[14.063191] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/ChangeState.srv\n'}
+[14.063387] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/ChangeState_Request.msg\n'}
+[14.063443] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/ChangeState_Response.msg\n'}
+[14.063481] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/GetState.srv\n'}
+[14.063613] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/GetState_Request.msg\n'}
+[14.063672] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/srv/GetState_Response.msg\n'}
+[14.063721] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/msg/State.msg\n'}
+[14.063952] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libarcade_driver.so\n'}
+[14.068143] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libarcade_driver.so" to ""\n'}
+[14.068202] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_speed_controller.so\n'}
+[14.069661] (-) TimerEvent: {}
+[14.073173] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/libmotor_speed_controller.so" to ""\n'}
+[14.073239] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/lib/motor_controller/state_manager\n'}
+[14.077700] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/bzvm/Drivetrain/install/motor_controller/lib/motor_controller/state_manager" to ""\n'}
+[14.077895] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller\n'}
+[14.077941] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller\n'}
+[14.077981] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh\n'}
+[14.078159] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv\n'}
+[14.078205] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/path.sh\n'}
+[14.078243] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/environment/path.dsv\n'}
+[14.078370] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/local_setup.bash\n'}
+[14.078431] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/local_setup.sh\n'}
+[14.078702] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/local_setup.zsh\n'}
+[14.078850] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/local_setup.dsv\n'}
+[14.078891] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/package.dsv\n'}
+[14.078929] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/ament_index/resource_index/packages/motor_controller\n'}
+[14.079184] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_generator_cExport.cmake\n'}
+[14.079241] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.079603] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.079660] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.079952] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport.cmake\n'}
+[14.080012] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.080744] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_generator_cppExport.cmake\n'}
+[14.080802] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.080840] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.080878] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport.cmake\n'}
+[14.080915] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.081678] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/ament_index/resource_index/rclcpp_components/motor_controller\n'}
+[14.081736] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/rosidl_cmake-extras.cmake\n'}
+[14.081964] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.082009] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.082239] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.082304] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.082346] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.082559] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake\n'}
+[14.082615] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake\n'}
+[14.082653] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/bzvm/Drivetrain/install/motor_controller/share/motor_controller/package.xml\n'}
+[14.084886] (motor_controller) CommandEnded: {'returncode': 0}
+[14.170046] (-) TimerEvent: {}
+[14.268179] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[14.268557] (-) EventReactorShutdown: {}

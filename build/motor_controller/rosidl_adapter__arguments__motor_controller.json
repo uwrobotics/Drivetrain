@@ -1,0 +1,11 @@
+{
+  "package_name": "motor_controller",
+  "non_idl_tuples": [
+    "/home/bzvm/Drivetrain/Motor-Controller:msg/ArcadeSpeed.msg",
+    "/home/bzvm/Drivetrain/Motor-Controller:msg/MotorSpeeds.msg",
+    "/home/bzvm/Drivetrain/Motor-Controller:msg/Transition.msg",
+    "/home/bzvm/Drivetrain/Motor-Controller:srv/ChangeState.srv",
+    "/home/bzvm/Drivetrain/Motor-Controller:srv/GetState.srv",
+    "/home/bzvm/Drivetrain/Motor-Controller:msg/State.msg"
+  ]
+}

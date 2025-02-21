@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from motor_controller/srv/ChangeState.srv
+// generated code does not contain a copyright notice
+
+#include "motor_controller/msg/Transition.idl"
+
+module motor_controller {
+  module srv {
+    struct ChangeState_Request {
+      motor_controller::msg::Transition transition;
+    };
+    @verbatim (language="comment", text=
+      " Indicates whether the service was able to initiate the state transition")
+    struct ChangeState_Response {
+      boolean success;
+    };
+  };
+};

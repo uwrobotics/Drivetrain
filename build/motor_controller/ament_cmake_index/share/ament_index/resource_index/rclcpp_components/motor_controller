@@ -1,0 +1,2 @@
+composition::ArcadeDriver;lib/libarcade_driver.so
+composition::MotorSpeedController;lib/libmotor_speed_controller.so
