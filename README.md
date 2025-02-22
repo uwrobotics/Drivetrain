@@ -34,15 +34,18 @@ colcon build --symlink-install
 ### Setup
 
 ```bash
+export LCM_DEFAULT_URL=udpm://239.255.76.67:7667?ttl=1
+
 cd ~/ros_ws
 
 source install/setup.bash
 
-ros2 launch Motor-Controller/launch/launch.py
+ros2 run py_odrive msg_server
+
+ros2 launch Drivetrain/Motor-Controller/launch/launch.py
 
 ros2 run lcm_receiver lcm_receiver
 
-ros2 run py_odrive msg_server
 ```
 
 ```bash
