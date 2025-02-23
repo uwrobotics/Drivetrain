@@ -9,4 +9,4 @@
 	url = https://github.com/uwrobotics/lcm_receiver.git
 [submodule "vectornav"]
 	path = vectornav
-	url = https://github.com/dawonn/vectornav.git
+	url = https://github.com/uwrobotics/vectornav.git
