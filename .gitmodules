@@ -7,6 +7,3 @@
 [submodule "lcm_receiver"]
 	path = lcm_receiver
 	url = https://github.com/uwrobotics/lcm_receiver.git
-[submodule "vectornav"]
-	path = vectornav
-	url = https://github.com/uwrobotics/vectornav.git
